@@ -95,11 +95,11 @@ WSGI_APPLICATION = 'tampus_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'tampus',
+        'NAME': 'railway',
         'USER': 'root',
-        'PASSWORD': '123456',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
+        'PASSWORD': 'aAD453B-CeeH5bd3Beb-1554CGFE6FfA',
+        'HOST': 'monorail.proxy.rlwy.net',
+        'PORT': '13366',
     }
 }
 

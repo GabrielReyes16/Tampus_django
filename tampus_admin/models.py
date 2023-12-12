@@ -14,7 +14,7 @@ class User(AbstractUser):
         profile = Profile.objects.get(user=self)
 
     class Meta:
-        db_table = 'UserAdmin'
+        db_table = 'useradmin'
 
 
 class Profile(models.Model):
@@ -25,7 +25,7 @@ class Profile(models.Model):
     verified = models.BooleanField(default=False)
 
     class Meta:
-        db_table = 'ProfileAdmin'
+        db_table = 'profileadmin'
 
 
 def create_user_profile(sender, instance, created, **kwargs):
